@@ -17,17 +17,26 @@ nav {
 }
 
 main {
-  max-width: 60%;
+  max-width: 50%;
   margin: auto;
-  padding: 0ch;
+  padding: 3ch;
   background-color: lightpink;
+  border-radius: 10px;
+  border: 1px solid black;
   display: flex;
   flex-direction: column;
 }
+main span {
+  padding: 2ch;
+  text-align: center;
+}
 main article {
-  flex-direction: row;
   background-color: white;
-  max-width: 20%;
+  padding: 3ch;
+  margin: 1ch;
+  border-radius: 10px;
+  border: 1px solid black;
+  flex-direction: row;
   align-items: stretch;
   justify-content: space-evenly;
 }/*# sourceMappingURL=styles.css.map */
