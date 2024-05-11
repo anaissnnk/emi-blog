@@ -1,6 +1,7 @@
 * {
   padding: 0;
   margin: 0;
+  font-family: monospace;
 }
 
 header {
@@ -11,14 +12,22 @@ header {
 
 nav {
   background-color: lightblue;
-  padding: 0;
+  padding: 3ch;
   margin: auto;
 }
 
 main {
-  max-width: 50%;
+  max-width: 60%;
   margin: auto;
-  padding: 0;
+  padding: 0ch;
   background-color: lightpink;
-  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+main article {
+  flex-direction: row;
+  background-color: white;
+  max-width: 20%;
+  align-items: stretch;
+  justify-content: space-evenly;
 }/*# sourceMappingURL=styles.css.map */

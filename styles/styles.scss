@@ -3,6 +3,7 @@
 * {
     padding: 0;
     margin: 0;
+    font-family: monospace;
 }
 
 header {
@@ -18,9 +19,21 @@ nav {
 }
 
 main {
-    max-width: 50%;
+    max-width: 60%;
     margin: auto;
     padding: variables.$main-padding;
     background-color: variables.$main-bg-color;
-    padding: variables.$main-padding;
+    display: flex;
+    flex-direction: column;
+
+    //article
+    article {
+        flex-direction: row;
+        background-color: white;
+        max-width: 20%;
+        align-items: stretch;
+        justify-content: space-evenly;
+
+
+    }
 }
