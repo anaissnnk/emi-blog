@@ -1,0 +1,18 @@
+@use 'variables' as variables;
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: variables.$header-bg-color;
+    margin: variables.$header-padding;
+}
+
+main {
+    max-width: 50%;
+    margin: auto;
+    background-color: variables.$main-bg-color;
+    padding: variables.$main-padding;
+}
