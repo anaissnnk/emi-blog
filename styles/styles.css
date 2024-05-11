@@ -4,13 +4,21 @@
 }
 
 header {
+  background-color: beige;
+  padding: 5ch;
+  margin: 3ch;
+}
+
+nav {
   background-color: lightblue;
-  margin: 2ch;
+  padding: 0;
+  margin: auto;
 }
 
 main {
   max-width: 50%;
   margin: auto;
+  padding: 0;
   background-color: lightpink;
-  padding: 5ch;
+  padding: 0;
 }/*# sourceMappingURL=styles.css.map */

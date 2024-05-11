@@ -7,12 +7,20 @@
 
 header {
     background-color: variables.$header-bg-color;
-    margin: variables.$header-padding;
+    padding: variables.$header-padding;
+    margin: variables.$header-margin;
+}
+
+nav {
+    background-color: variables.$nav-bg-color;
+    padding: variables.$nav-padding;
+    margin: auto;
 }
 
 main {
     max-width: 50%;
     margin: auto;
+    padding: variables.$main-padding;
     background-color: variables.$main-bg-color;
     padding: variables.$main-padding;
 }
