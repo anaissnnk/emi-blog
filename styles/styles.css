@@ -39,4 +39,8 @@ main article {
   flex-direction: row;
   align-items: stretch;
   justify-content: space-evenly;
+}
+
+.header-img {
+  width: 20%;
 }/*# sourceMappingURL=styles.css.map */
