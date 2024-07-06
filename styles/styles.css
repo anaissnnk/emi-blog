@@ -9,6 +9,12 @@ header {
   padding: 5ch;
   margin: 3ch;
 }
+header .header-img-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 
 nav {
   background-color: lightblue;

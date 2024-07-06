@@ -10,6 +10,13 @@ header {
     background-color: variables.$header-bg-color;
     padding: variables.$header-padding;
     margin: variables.$header-margin;
+
+    .header-img-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
 }
 
 nav {
